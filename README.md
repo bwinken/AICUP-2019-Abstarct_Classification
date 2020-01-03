@@ -4,6 +4,16 @@
  從arXiv的電腦科學相關論文摘要，預測出摘要所屬的類別(Theoretical Paper, Engineering Paper, Empirical Paper, Others)。
  需注意的是摘要可以有多個分  類，例如: 摘要可以同時是Theoretical Paper和Engineering Paper。
 
+## Score
+ Team Name: SDML_access232 
+ 
+ Public Score:
+  - 0.723776 (Rank:8/420)
+  
+ Private Score:
+  - 0.747122 (Rank:3/420)
+
+
 ## Data and File Decription
   Training data: 
   - data/task2_trainset.csv
@@ -22,3 +32,4 @@
 1. pip3 install -r requirements.txt
 2. bash train.sh \<path-to-train-data>
 3. bash test.sh \<path-to-test-data> \<path-to-private-test-data> \<path-to-submit-file>
+
