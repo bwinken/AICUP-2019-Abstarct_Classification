@@ -26,7 +26,7 @@
   - train.py
   
   Test File
-  - test.py
+  - inference.py
 
 ## How to reproduce train result?
 1. pip3 install -r requirements.txt
